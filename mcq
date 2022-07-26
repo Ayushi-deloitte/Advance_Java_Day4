@@ -1,0 +1,100 @@
+MCQ 
+3). How constructor can be used for a servlet? 
+a) Initialization 
+b) Constructor function 
+c) Initialization and Constructor function 
+d) Setup() method 
+
+ Ans:-c) Initialization and Constructor function 
+ 
+
+4) When destroy() method of a filter is called? 
+a) The destroy() method is called only once at the end of the life cycle of a filter 
+b) The destroy() method is called after the filter has executed doFilter method 
+c) The destroy() method is called only once at the beginning of the life cycle of a filter 
+d) The destroyer() method is called after the filter has executed 
+ Ans:-a) The destroy() method is called only once at the end of the life cycle of a filter 
+
+ 
+
+5) Which of the following code is used to get names of the attributes in servlet? 
+
+A - response.getAttributeNames() 
+
+Ans:-B - request.getAttributeNames() 
+
+C - Header.getAttributeNames() 
+
+D - None of the above. 
+
+ 
+
+6) Which of the following code can be used to set the content type for the body of the response? 
+
+A - request.setContentType(type) 
+
+Ans:-B - response.setContentType(type) 
+
+C - header.setContentType(type) 
+
+D - None of the above. 
+
+ 
+
+7) Which of the following code is used to get a HTTP Session object in servlets? 
+
+Ans:-A - request.getSession() 
+
+B - response.getSession(); 
+
+C - new Session() 
+
+D - None of the above. 
+
+ 
+
+8) What are the functions of Servlet container? 
+
+A. Lifecycle management 
+
+B. Communication support 
+
+C. Multithreading support 
+
+Ans:-D. All of the above 
+
+ 
+
+9) Which method shows the client what server is receiving? 
+
+Ans:-A. goGet 
+
+B. doOption 
+
+C. doTrace 
+
+D. doPost 
+
+10) In the web.xml , session configuration is 
+
+ 
+
+<session-config> 
+
+<session-timeout>0<session-timeout> 
+
+</session-config> 
+
+ 
+
+What does this means? 
+
+Ans:-A. Session are never invalidated. 
+
+B. Sessions are never created. 
+
+C. Session timeout is 0 so sessions never get created. 
+
+D. None of the above 
+
+ 
